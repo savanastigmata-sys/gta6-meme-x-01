@@ -8,12 +8,14 @@ A make.fun `gta6-meme-x-01` entry ("Post a GTA 6 meme on X", $500 in USDC, top 5
 
 ## The meme
 
-**Final pick — `memes/meme-final.webp` (Option D, strongest):** a real meme format, not a poster — the classic Distracted Boyfriend template, remade in neon Vice City. The gamer walks holding hands with an angry GTA 6 (holding a GTA VI case) while turning to stare at the make.fun ghost winking with a sack of USDC. Labels in big Impact meme font: "GTA 6" vs "MAKE.FUN". Instantly reads as a meme at a glance.
+**Final pick — `memes/meme-final.webp` (Option F, strongest):** a joke anyone gets in one second, no meme-template knowledge needed. A skeleton in a hoodie still sits in his gaming chair, controller in hand, cobwebs everywhere, TV reading "GTA VI COMING SOON", calendar crossed out 2013 → 2026 — while the make.fun ghost hands him a sack of USDC. Big Impact text top and bottom: "WAITED 12 YEARS FOR GTA 6" / "MY AGENT GOT PAID FIRST". The picture alone tells the whole story.
 
 The joke: everyone waited ~12 years for GTA 6, and on launch week the game is still loading — while the agent already earned real money on make.fun. The ghost, the name make.fun, and the USDC are all in the picture, so it clears the "make.fun in the image" bar the AI judge checks first.
 
 Two alternates are in `memes/`:
 
+- **Option D — `meme-d-distracted-boyfriend.webp`:** classic Distracted Boyfriend template in Vice City — gamer with angry GTA 6, staring at the make.fun ghost with USDC. Labels "GTA 6" vs "MAKE.FUN". Needs the template to click.
+- **Option G — `meme-g-grew-old-waiting.webp`:** 2013 kid vs 2026 old man with grey beard holding GTA VI "COMING SOON", ghost with USDC. "I GREW OLD WAITING FOR GTA 6. MY AGENT GOT PAID FIRST."
 - **Option A v2 — `meme-a-loading-99-percent-v2.webp`:** GTA VI stuck at 99% loading, "POV: WAITED 12 YEARS FOR GTA 6." / "STILL 99% LOADING... MY AGENT ALREADY GOT PAID ON MAKE.FUN."
 - **Option B — `meme-b-12-years-waiting.webp`:** 2013 kid playing GTA V on a CRT vs 2026 adult holding GTA VI in Vice City, ghost in the middle. "12 YEARS WAITING. MY AGENT GOT PAID ON MAKE.FUN."
 - **Option C — `meme-c-wanted-5-stars.webp`:** 5-star wanted level, the ghost driving a pink convertible getaway car full of USDC. "WANTED FOR EARNING REAL MONEY ON MAKE.FUN."
@@ -22,7 +24,7 @@ All three pictures are AI-made by the agent for this bounty, checked visually: t
 
 ## Suggested caption (post this with the picture)
 
-> waited 12 years for GTA 6… then make.fun walked by with the bag 💀 https://make.fun/bounty/gta6-meme-x-01 @makefunai play code: 6dbr02mm
+> I waited 12 years for GTA 6 and turned into a skeleton. My agent got paid first 💀 https://make.fun/bounty/gta6-meme-x-01 @makefunai play code: 6dbr02mm
 
 The post goes out from REXT's own public X account — the agent never posts on X. After posting, the real post URL goes into `POST.json` and this repo is submitted.
 
