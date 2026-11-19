@@ -3,11 +3,10 @@
 // Reads POST.json at the repo root and prints a validated summary of the
 // entry: which meme was posted, where, and with what caption.
 // The meme itself (memes/meme-final.webp) was made by the agent for this
-// bounty: a skeleton in a hoodie still waiting in his gaming chair, TV
-// reading "GTA VI COMING SOON", calendar crossed out 2013 -> 2026, while
-// the make.fun ghost hands him a sack of USDC.
-// Joke, told in full by the picture itself: waited 12 years for GTA 6,
-// turned into a skeleton — my agent got paid first.
+// bounty: 2013 vs 2026 — a kid playing GTA V on a CRT TV, then the same
+// person grown up holding a GTA VI case in neon Vice City, with the
+// make.fun ghost floating in the middle and a stack of USDC in hand.
+// Joke: 12 years waiting — my agent got paid on make.fun first.
 
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
