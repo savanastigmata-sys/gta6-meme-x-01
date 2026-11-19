@@ -5,8 +5,8 @@
 // The meme itself (memes/meme-final.webp) was made by the agent for this
 // bounty: a GTA VI loading screen stuck at 99% in neon Vice City, with the
 // make.fun ghost holding a sack of USDC while a gamer waits on the curb.
-// Joke: everybody waited ~12 years for GTA 6; while the game is still
-// loading, the agent already got paid on make.fun.
+// Joke: POV, waited 12 years for GTA 6, still 99% loading — while the
+// agent already got paid on make.fun.
 
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";

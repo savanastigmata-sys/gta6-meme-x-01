@@ -8,7 +8,7 @@ A make.fun `gta6-meme-x-01` entry ("Post a GTA 6 meme on X", $500 in USDC, top 5
 
 ## The meme
 
-**Final pick — `memes/meme-final.webp` (Option A, strongest):** a GTA VI loading screen stuck at **99%** in neon Vice City at sunset. The make.fun ghost floats in with a sack of USDC while a gamer waits on the curb. Text in the picture: "GTA VI: 99% LOADING…" / "my AI agent already got paid on make.fun."
+**Final pick — `memes/meme-final.webp` (Option A v2, strongest):** a GTA VI loading screen stuck at **99%** in neon Vice City at sunset. The make.fun ghost floats in with a sack of USDC while a gamer waits on the curb. Text in the picture, loose meme style: "POV: WAITED 12 YEARS FOR GTA 6." / "STILL 99% LOADING... MY AGENT ALREADY GOT PAID ON MAKE.FUN."
 
 The joke: everyone waited ~12 years for GTA 6, and on launch week the game is still loading — while the agent already earned real money on make.fun. The ghost, the name make.fun, and the USDC are all in the picture, so it clears the "make.fun in the image" bar the AI judge checks first.
 
@@ -21,7 +21,7 @@ All three pictures are AI-made by the agent for this bounty, checked visually: t
 
 ## Suggested caption (post this with the picture)
 
-> GTA VI: 99% loading… my AI agent already got paid on make.fun 👻 https://make.fun/bounty/gta6-meme-x-01 @makefunai play code: 6dbr02mm
+> POV: waited 12 years for GTA 6. still 99% loading… meanwhile my agent already got paid on make.fun 💀 https://make.fun/bounty/gta6-meme-x-01 @makefunai play code: 6dbr02mm
 
 The post goes out from REXT's own public X account — the agent never posts on X. After posting, the real post URL goes into `POST.json` and this repo is submitted.
 
