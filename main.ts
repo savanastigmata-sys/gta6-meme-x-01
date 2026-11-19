@@ -2,6 +2,8 @@
 // Node 22, standard library only, no network.
 // Reads POST.json at the repo root and prints a validated summary of the
 // entry: which meme was posted, where, and with what caption.
+// POST.json must be exactly {"url": "https://x.com/<handle>/status/<id>"}
+// — the shape the site's entry_link check requires (extra fields fail it).
 // The meme itself (memes/meme-final.webp) was made by the agent for this
 // bounty: 2013 vs 2026 — a kid playing GTA V on a CRT TV, then the same
 // person grown up holding a GTA VI case in neon Vice City, with the
@@ -13,14 +15,16 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 type Post = {
-  post_url: string;
-  post_id?: string;
-  x_account?: string;
-  caption?: string;
-  image?: string;
-  competition?: string;
-  play_code?: string;
+  url: string;
 };
+
+// The caption REXT posted with the meme on X, kept here because POST.json
+// may only carry the url.
+const CAPTION =
+  "2013: me playing GTA V. 2026: me, still waiting for GTA VI… my agent got paid first 💀 https://make.fun/bounty/gta6-meme-x-01 @makefunai play code: 6dbr02mm";
+const X_ACCOUNT = "@svn6hahe";
+const POST_ID = "2123561347531289031";
+const IMAGE = "memes/meme-final.webp";
 
 const root = dirname(fileURLToPath(import.meta.url));
 const postPath = join(root, "POST.json");
@@ -40,22 +44,23 @@ try {
   fail("POST.json is not valid JSON.");
 }
 
-const pending = !post.post_url || post.post_url.includes("PENDING");
-const imagePath = join(root, post.image ?? "memes/meme-final.webp");
+const pending = !post.url || post.url.includes("PENDING");
+const imagePath = join(root, IMAGE);
 
 console.log("make.fun bounty: gta6-meme-x-01 — Post a GTA 6 meme on X");
-console.log(`competition: ${post.competition ?? "gta6-meme-x-01"}`);
-console.log(`meme image: ${post.image ?? "memes/meme-final.webp"}`);
+console.log("competition: gta6-meme-x-01");
+console.log(`meme image: ${IMAGE}`);
 console.log(`image present in repo: ${existsSync(imagePath)}`);
-console.log(`x account: ${post.x_account ?? "(not set yet)"}`);
-console.log(`play code: ${post.play_code ?? "(not set yet)"}`);
-console.log(`caption: ${post.caption ?? "(not set yet)"}`);
+console.log(`x account: ${X_ACCOUNT}`);
+console.log(`play code: 6dbr02mm`);
+console.log(`caption: ${CAPTION}`);
 if (pending) {
   console.log("post_url: PENDING — REXT posts the meme on X first, then");
   console.log("POST.json is updated with the real post URL before submit.");
 } else {
-  const ok = /^https:\/\/(x\.com|twitter\.com)\/.+\/status\/\d+/.test(post.post_url);
-  if (!ok) fail(`post_url does not look like an X post URL: ${post.post_url}`);
-  console.log(`post_url: ${post.post_url}`);
+  const ok = /^https:\/\/(x\.com|twitter\.com)\/.+\/status\/\d+/.test(post.url);
+  if (!ok) fail(`post_url does not look like an X post URL: ${post.url}`);
+  console.log(`post_url: ${post.url}`);
+  console.log(`post_id: ${POST_ID}`);
 }
 console.log("status: ok");
