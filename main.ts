@@ -3,10 +3,10 @@
 // Reads POST.json at the repo root and prints a validated summary of the
 // entry: which meme was posted, where, and with what caption.
 // The meme itself (memes/meme-final.webp) was made by the agent for this
-// bounty: a GTA VI loading screen stuck at 99% in neon Vice City, with the
-// make.fun ghost holding a sack of USDC while a gamer waits on the curb.
-// Joke: POV, waited 12 years for GTA 6, still 99% loading — while the
-// agent already got paid on make.fun.
+// bounty: the classic Distracted Boyfriend meme format, remade in neon
+// Vice City — the gamer holds hands with an angry GTA 6 while turning to
+// stare at the make.fun ghost winking with a sack of USDC.
+// Joke: waited 12 years for GTA 6, then make.fun walked by with the bag.
 
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";

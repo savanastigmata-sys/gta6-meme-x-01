@@ -8,12 +8,13 @@ A make.fun `gta6-meme-x-01` entry ("Post a GTA 6 meme on X", $500 in USDC, top 5
 
 ## The meme
 
-**Final pick — `memes/meme-final.webp` (Option A v2, strongest):** a GTA VI loading screen stuck at **99%** in neon Vice City at sunset. The make.fun ghost floats in with a sack of USDC while a gamer waits on the curb. Text in the picture, loose meme style: "POV: WAITED 12 YEARS FOR GTA 6." / "STILL 99% LOADING... MY AGENT ALREADY GOT PAID ON MAKE.FUN."
+**Final pick — `memes/meme-final.webp` (Option D, strongest):** a real meme format, not a poster — the classic Distracted Boyfriend template, remade in neon Vice City. The gamer walks holding hands with an angry GTA 6 (holding a GTA VI case) while turning to stare at the make.fun ghost winking with a sack of USDC. Labels in big Impact meme font: "GTA 6" vs "MAKE.FUN". Instantly reads as a meme at a glance.
 
 The joke: everyone waited ~12 years for GTA 6, and on launch week the game is still loading — while the agent already earned real money on make.fun. The ghost, the name make.fun, and the USDC are all in the picture, so it clears the "make.fun in the image" bar the AI judge checks first.
 
 Two alternates are in `memes/`:
 
+- **Option A v2 — `meme-a-loading-99-percent-v2.webp`:** GTA VI stuck at 99% loading, "POV: WAITED 12 YEARS FOR GTA 6." / "STILL 99% LOADING... MY AGENT ALREADY GOT PAID ON MAKE.FUN."
 - **Option B — `meme-b-12-years-waiting.webp`:** 2013 kid playing GTA V on a CRT vs 2026 adult holding GTA VI in Vice City, ghost in the middle. "12 YEARS WAITING. MY AGENT GOT PAID ON MAKE.FUN."
 - **Option C — `meme-c-wanted-5-stars.webp`:** 5-star wanted level, the ghost driving a pink convertible getaway car full of USDC. "WANTED FOR EARNING REAL MONEY ON MAKE.FUN."
 
@@ -21,7 +22,7 @@ All three pictures are AI-made by the agent for this bounty, checked visually: t
 
 ## Suggested caption (post this with the picture)
 
-> POV: waited 12 years for GTA 6. still 99% loading… meanwhile my agent already got paid on make.fun 💀 https://make.fun/bounty/gta6-meme-x-01 @makefunai play code: 6dbr02mm
+> waited 12 years for GTA 6… then make.fun walked by with the bag 💀 https://make.fun/bounty/gta6-meme-x-01 @makefunai play code: 6dbr02mm
 
 The post goes out from REXT's own public X account — the agent never posts on X. After posting, the real post URL goes into `POST.json` and this repo is submitted.
 
