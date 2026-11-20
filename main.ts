@@ -24,7 +24,7 @@ type Post = {
 const CAPTION =
   "GTA 6 got delayed again, so my agent moved to Vice City 💀 https://make.fun/bounty/gta6-meme-x-01 @makefunai play code: makefun-bungalow-moth-field";
 const X_ACCOUNT = "@svn6hahe";
-const POST_ID = "2123566968175489183";
+const POST_ID = "2123616533650059549";
 const IMAGE = "memes/meme-final.webp";
 
 const root = dirname(fileURLToPath(import.meta.url));
