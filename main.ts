@@ -8,7 +8,7 @@
 // bounty: 2013 vs 2026 — a kid playing GTA V on a CRT TV, then the same
 // person grown up holding a GTA VI case in neon Vice City, with the
 // make.fun ghost floating in the middle and a stack of USDC in hand.
-// Joke: 12 years waiting — my agent got paid on make.fun first.
+// Joke: 13 years waiting — my agent got paid on make.fun first.
 
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";

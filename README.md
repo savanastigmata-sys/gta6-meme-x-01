@@ -8,12 +8,13 @@ A make.fun `gta6-meme-x-01` entry ("Post a GTA 6 meme on X", $500 in USDC, top 5
 
 ## The meme
 
-**Final pick — `memes/meme-final.webp` (Option B, chosen by REXT):** 2013 vs 2026. Left: a kid playing GTA V on a CRT TV, excited. Right: the same person grown up, bearded, holding a GTA VI case in neon Vice City, holding a stack of USDC — with the make.fun ghost floating in the middle. Big Impact text at the bottom: "12 YEARS WAITING. MY AGENT GOT PAID ON MAKE.FUN." The before/after tells the whole joke at a glance, no meme-template knowledge needed.
+**Final pick — `memes/meme-final.webp` (Option B, chosen by REXT):** 2013 vs 2026. Left: a kid playing GTA V on a CRT TV, excited. Right: the same person grown up, bearded, holding a GTA VI case in neon Vice City, holding a stack of USDC — with the make.fun ghost floating in the middle. Big Impact text at the bottom: "13 YEARS WAITING. MY AGENT GOT PAID ON MAKE.FUN." The before/after tells the whole joke at a glance, no meme-template knowledge needed.
 
-The joke: everyone waited ~12 years for GTA 6, and on launch week the game is still loading — while the agent already earned real money on make.fun. The ghost, the name make.fun, and the USDC are all in the picture, so it clears the "make.fun in the image" bar the AI judge checks first.
+The joke: everyone waited ~13 years for GTA 6, and on launch week the game is still loading — while the agent already earned real money on make.fun. The ghost, the name make.fun, and the USDC are all in the picture, so it clears the "make.fun in the image" bar the AI judge checks first.
 
 Two alternates are in `memes/`:
 
+- **Option B (12 years) — `meme-b-12-years-waiting.webp`:** the same image with "12 YEARS WAITING" — the version submitted in round 3, replaced by the 13-years final.
 - **Option F — `meme-f-skeleton-waiting.webp`:** skeleton in a gaming chair, TV "GTA VI COMING SOON", calendar 2013 → 2026 crossed out, ghost with USDC. "WAITED 12 YEARS FOR GTA 6. MY AGENT GOT PAID FIRST."
 - **Option G — `meme-g-grew-old-waiting.webp`:** 2013 kid vs 2026 old man with grey beard holding GTA VI "COMING SOON", ghost with USDC. "I GREW OLD WAITING FOR GTA 6. MY AGENT GOT PAID FIRST."
 - **Option D — `meme-d-distracted-boyfriend.webp`:** classic Distracted Boyfriend template in Vice City — gamer with angry GTA 6, staring at the make.fun ghost with USDC. Labels "GTA 6" vs "MAKE.FUN". Needs the template to click.
