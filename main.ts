@@ -21,9 +21,9 @@ type Post = {
 // The caption REXT posted with the meme on X, kept here because POST.json
 // may only carry the url.
 const CAPTION =
-  "2013: me playing GTA V. 2026: me, still waiting for GTA VI… my agent got paid first 💀 https://make.fun/bounty/gta6-meme-x-01 @makefunai play code: 6dbr02mm";
+  "2013: me playing GTA V. 2026: me, still waiting for GTA VI… my agent got paid first 💀 https://make.fun/bounty/gta6-meme-x-01 @makefunai play code: makefun-bungalow-moth-field";
 const X_ACCOUNT = "@svn6hahe";
-const POST_ID = "2123561347531289031";
+const POST_ID = "2123566968175489183";
 const IMAGE = "memes/meme-final.webp";
 
 const root = dirname(fileURLToPath(import.meta.url));
@@ -52,7 +52,7 @@ console.log("competition: gta6-meme-x-01");
 console.log(`meme image: ${IMAGE}`);
 console.log(`image present in repo: ${existsSync(imagePath)}`);
 console.log(`x account: ${X_ACCOUNT}`);
-console.log(`play code: 6dbr02mm`);
+console.log(`play code: makefun-bungalow-moth-field`);
 console.log(`caption: ${CAPTION}`);
 if (pending) {
   console.log("post_url: PENDING — REXT posts the meme on X first, then");
