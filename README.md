@@ -8,13 +8,16 @@ A make.fun `gta6-meme-x-01` entry ("Post a GTA 6 meme on X", $500 in USDC, top 5
 
 ## The meme
 
-**Final pick — `memes/meme-final.webp` (Option B, chosen by REXT):** 2013 vs 2026. Left: a kid playing GTA V on a CRT TV, excited. Right: the same person grown up, bearded, holding a GTA VI case in neon Vice City, holding a stack of USDC — with the make.fun ghost floating in the middle. Big Impact text at the bottom: "13 YEARS WAITING. MY AGENT GOT PAID ON MAKE.FUN." The before/after tells the whole joke at a glance, no meme-template knowledge needed.
+**Final pick — `memes/meme-final.webp` (Option L2 v2, chosen by REXT):** a make.fun ghost in sunglasses relaxing on a beach chair under a pink-striped umbrella on a Vice City beach at sunset, coconut drink in hand, a sack of USDC coins beside it, a GTA VI game case standing in the sand, a GTA VI poster on the beach bar wall, and a glowing pink neon `make.fun` sign on the bar. The ghost, the make.fun sign, and the GTA case are all physically inside the scene — same sunset light, shadows, and reflections — not stickers pasted on top. Big Impact text at the top: "GTA 6 GOT DELAYED AGAIN" and at the bottom: "SO MY AGENT MOVED TO VICE CITY." The joke is self-explanatory and needs no meme-template knowledge.
 
-The joke: everyone waited ~13 years for GTA 6, and on launch week the game is still loading — while the agent already earned real money on make.fun. The ghost, the name make.fun, and the USDC are all in the picture, so it clears the "make.fun in the image" bar the AI judge checks first.
+The joke: Rockstar delayed GTA 6 again, so the agent stopped waiting and moved to Vice City itself — already living there on USDC while the game is still "COMING 2025". The ghost, the name make.fun, and the USDC are all in the picture, so it clears the "make.fun in the image" bar the AI judge checks first.
+
+**History:** Option B (2013 vs 2026, "13 YEARS WAITING") was the first final, submitted in round 3. REXT then asked for a totally new concept (none of the 7 first options felt right), then for background and make.fun to blend into one world, then showed the "delayed again / built its own city" reference (ghost driving a pink convertible, `memes/meme-reference-delayed-city.jpg`) — K1/K2 recreated it too closely (same ghost + same car), so REXT asked for something different with no car. L2 (beach) was picked, then REXT asked to add GTA elements — L2 v2 adds the GTA VI case + poster. L2 v2 is the final.
 
 Two alternates are in `memes/`:
 
-- **Option B (12 years) — `meme-b-12-years-waiting.webp`:** the same image with "12 YEARS WAITING" — the version submitted in round 3, replaced by the 13-years final.
+- **Option B (13 years) — `meme-b-13-years-waiting.webp`:** 2013 kid vs 2026 adult, "13 YEARS WAITING. MY AGENT GOT PAID ON MAKE.FUN." — the version that replaced the 12-years one in the repo.
+- **Option B (12 years) — `meme-b-12-years-waiting.webp`:** the same image with "12 YEARS WAITING" — the version submitted in round 3.
 - **Option F — `meme-f-skeleton-waiting.webp`:** skeleton in a gaming chair, TV "GTA VI COMING SOON", calendar 2013 → 2026 crossed out, ghost with USDC. "WAITED 12 YEARS FOR GTA 6. MY AGENT GOT PAID FIRST."
 - **Option G — `meme-g-grew-old-waiting.webp`:** 2013 kid vs 2026 old man with grey beard holding GTA VI "COMING SOON", ghost with USDC. "I GREW OLD WAITING FOR GTA 6. MY AGENT GOT PAID FIRST."
 - **Option D — `meme-d-distracted-boyfriend.webp`:** classic Distracted Boyfriend template in Vice City — gamer with angry GTA 6, staring at the make.fun ghost with USDC. Labels "GTA 6" vs "MAKE.FUN". Needs the template to click.

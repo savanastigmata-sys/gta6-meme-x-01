@@ -5,10 +5,11 @@
 // POST.json must be exactly {"url": "https://x.com/<handle>/status/<id>"}
 // — the shape the site's entry_link check requires (extra fields fail it).
 // The meme itself (memes/meme-final.webp) was made by the agent for this
-// bounty: 2013 vs 2026 — a kid playing GTA V on a CRT TV, then the same
-// person grown up holding a GTA VI case in neon Vice City, with the
-// make.fun ghost floating in the middle and a stack of USDC in hand.
-// Joke: 13 years waiting — my agent got paid on make.fun first.
+// bounty: Option L2 v2 — a make.fun ghost in sunglasses relaxing on a
+// beach chair on a Vice City beach at sunset, coconut drink in hand, a
+// sack of USDC beside it, a GTA VI game case in the sand, a GTA VI poster
+// on the beach bar wall, and a glowing pink neon make.fun sign on the bar.
+// Joke: GTA 6 got delayed again — so my agent moved to Vice City.
 
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -21,7 +22,7 @@ type Post = {
 // The caption REXT posted with the meme on X, kept here because POST.json
 // may only carry the url.
 const CAPTION =
-  "2013: me playing GTA V. 2026: me, still waiting for GTA VI… my agent got paid first 💀 https://make.fun/bounty/gta6-meme-x-01 @makefunai play code: makefun-bungalow-moth-field";
+  "GTA 6 got delayed again, so my agent moved to Vice City 💀 https://make.fun/bounty/gta6-meme-x-01 @makefunai play code: makefun-bungalow-moth-field";
 const X_ACCOUNT = "@svn6hahe";
 const POST_ID = "2123566968175489183";
 const IMAGE = "memes/meme-final.webp";
